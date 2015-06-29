@@ -145,6 +145,44 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Branch-3-8506.md"
+  },
+  {
+   "id": "51e9ec25-ac6e-6c3b-d2ca-ec92ccb9ce93",
+   "title": "OR logic",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/tut/i-6.crunch",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/OR-logic-51e9.md"
+  },
+  {
+   "id": "2460e340-2f81-edf3-bd7b-4e50ba817ef9",
+   "title": "AND/OR Challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/branch-or.crunch",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/AND-OR-Challenge-2460.md"
   }
  ],
  "theme": "paper",

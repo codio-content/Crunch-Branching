@@ -1,1 +1,1 @@
-{"isEditing":false,"finishedExecution":1,"currentLineNumber":1,"currentVariables":[],"currentStack":[],"currentAccumulator":0,"currentFlags":[false,true,false,false,true,true],"outputLines":[{"msg":"Not middle aged","acc":0}]}
+{"isEditing":false,"finishedExecution":1,"currentLineNumber":23,"currentVariables":[],"currentStack":[],"currentAccumulator":99,"currentFlags":[false,true,false,false,true,true],"outputLines":[{"msg":"Bad","acc":1},{"msg":"Finished","acc":99}]}
