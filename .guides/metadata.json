@@ -109,6 +109,25 @@
    "content-file": ".guides/content/Branch-2-10a4.md"
   },
   {
+   "id": "365f6265-f45b-fc2b-5fb3-564a6a20717d",
+   "title": "AND logic",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "public/tut/i-5.crunch",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/AND-logic-365f.md"
+  },
+  {
    "id": "8506eccb-65d2-6d61-a1b1-fe257e611999",
    "title": "Branch 3",
    "files": [
