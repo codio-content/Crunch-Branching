@@ -15,7 +15,7 @@ In Assembler we have to deal with low level instructions, so we don't have the l
 ```
     Load X into the Accumulator
     Compare the Accumulator to 20 
-    Branch if Greater Than to "Marker1"
+    Branch if 'Greater Than' to "Marker1"
     Print 0
     Finished
 :Marker1
