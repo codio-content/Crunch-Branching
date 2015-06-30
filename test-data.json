@@ -1,1 +1,1 @@
-{"isEditing":false,"finishedExecution":1,"currentLineNumber":23,"currentVariables":[],"currentStack":[],"currentAccumulator":99,"currentFlags":[false,true,false,false,true,true],"outputLines":[{"msg":"Bad","acc":1},{"msg":"Finished","acc":99}]}
+{"isEditing":false,"finishedExecution":1,"currentLineNumber":12,"currentVariables":[{"name":"X","value":1}],"currentStack":[],"currentAccumulator":99,"currentFlags":[false,true,true,true,false,false],"outputLines":[{"msg":"Less than or equal","acc":0},{"msg":"All done!!!","acc":99}]}

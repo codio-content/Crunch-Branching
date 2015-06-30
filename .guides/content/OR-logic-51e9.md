@@ -6,7 +6,7 @@ Our scenario is
 
 > Enter a number and if the entered number is 1, 10 or 100 then output `1`, otherwise output `0`.
 
-In a high level language this would look like this
+This could be represented by the following pseudo-code.
 
 ```python
 input(Number)
