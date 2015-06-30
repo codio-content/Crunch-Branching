@@ -1,5 +1,5 @@
 function t_branch1(data) {
-  TESTS.SimpleOutputTest(data, {min: 0, max: 20}, function(inp, vars) {
+  TESTS.SimpleOutputTest(data, [{min: 0, max: 20}], function(inp, vars) {
     return [inp[0] > 20 ? 1 : 0];
   });
 }
