@@ -38,9 +38,9 @@ function t_branchOr(data) {
     expected.push(99);
     return expected;
   };
-  if (TESTS.SimpleOutputTestWithInputRange(data, {name: VAR_NUMBER, min: 0, max: 11}, checkResult)) {
+  if (TESTS.SimpleOutputTestWithInputRange(data, {name: VAR_NAME, min: 0, max: 11}, checkResult)) {
     TESTS.ShowProgress();
-    TESTS.SimpleOutputTestWithInputRange(data, {name: VAR_NUMBER, min: 89, max: 101}, checkResult);
+    TESTS.SimpleOutputTestWithInputRange(data, {name: VAR_NAME, min: 89, max: 101}, checkResult);
   }
 }
 
