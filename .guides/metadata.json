@@ -79,7 +79,7 @@
      "action": "close"
     },
     {
-     "path": "public/branch-1.crunch",
+     "path": "public/branch1.crunch",
      "panel": 0,
      "action": "open"
     }
@@ -98,7 +98,7 @@
      "action": "close"
     },
     {
-     "path": "public/branch-2.crunch",
+     "path": "public/branch2.crunch",
      "panel": 0,
      "action": "open"
     }
@@ -136,7 +136,7 @@
      "action": "close"
     },
     {
-     "path": "public/branch-3.crunch",
+     "path": "public/branch3.crunch",
      "panel": 0,
      "action": "open"
     }
@@ -174,7 +174,7 @@
      "action": "close"
     },
     {
-     "path": "public/branch-or.crunch",
+     "path": "public/branchOr.crunch",
      "panel": 0,
      "action": "open"
     }

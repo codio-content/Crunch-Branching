@@ -10,6 +10,6 @@ Write a program that does the following
 
 When you're done, press the button below.
 
-{Check it!! | custom}(branch-2.crunch)
+{Check it!! | custom}(branch2.crunch)
 
 |||

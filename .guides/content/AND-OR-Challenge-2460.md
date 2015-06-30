@@ -9,6 +9,6 @@ Write some code that
 
 When you're done, press the button below.
 
-{Check it!! | custom}(branch-or.crunch)
+{Check it!! | custom}(branchOr.crunch)
 
 |||
