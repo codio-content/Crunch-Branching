@@ -42,12 +42,12 @@ When you use `BGT` or any of the instructions below, you need to tell Crunch whe
 ## BEQ, BNE, BLT, BLE, BGE
 These instructions do exactly the same thing but they operate on different flags, so
 
-- `BEQ` branches if the `=` is set
-- `BNE` branches if the `≠` is set
-- `BLT` branches if the `<` is set
-- `BLE` branches if the `≤` is set
-- `BGT` branches if the `>` is set
-- `BGE` branches if the `≥` is set
+- `BEQ` branches if `=` is set
+- `BNE` branches if `≠` is set
+- `BLT` branches if `<` is set
+- `BLE` branches if `≤` is set
+- `BGT` branches if `>` is set
+- `BGE` branches if `≥` is set
 
 
 

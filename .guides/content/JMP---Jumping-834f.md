@@ -1,10 +1,6 @@
 The `JMP` instruction is very useful for jumping to a marked location in the code.
 
-Consider the following example that's a variation on the last example we looked at.
-
-> Get a number between 0 and 10 from a `DAT` memory location `Number`. Multiply the input number by 10 and display it. 
->
-> If the number is larger than 10 then display 'Input error' in the display console.
+If you look at the code on the left hand side, you can see a function that reads a number and checks if it is greater than 20. If not, it outputs a `0` but then jumps to the `Finished` label and carries on execution from that point.
 
 
 ## Play
