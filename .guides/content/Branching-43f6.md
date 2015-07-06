@@ -25,3 +25,5 @@ Marker1
 
 On the next page, we'll see how we turn this into Crunch code. 
 
+## Lexikon
+Don't forget Codio has an inbuilt lexikon that lets you look up commands and more. Select the `Tools->Lexikon` menu item to bring up the Lexikon. You should then select 'Crunch' from the dropdown on the right hand side. 
