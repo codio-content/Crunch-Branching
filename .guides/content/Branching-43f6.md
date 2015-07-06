@@ -18,7 +18,7 @@ In Assembler we have to deal with low level instructions, so we don't have the l
     Branch if 'Greater Than' to "Marker1"
     Print 0
     Finished
-:Marker1
+Marker1
     Print 1
     Finished
 ```
