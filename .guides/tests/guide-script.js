@@ -1,3 +1,5 @@
+var tests = null;
+
 function t_branch1(data) {
   tests.SimpleOutputTestWithInputRange(data, {min: 0, max: 40}, function(inp, vars) {
     return [inp[0] > 20 ? 1 : 0];
@@ -45,10 +47,11 @@ function t_branchOr(data) {
 }
 
 function waitForCrunchScript() {
-  if (!window.TESTS_COMMON_LOADED) {
+  if (!window.TESTS_COMMON) {
     setTimeout(waitForCrunchScript, 100);
     return;
   }
+  tests = window.TESTS_COMMON;
   tests.SetupButtonTest();
 }
 
