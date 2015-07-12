@@ -1,17 +1,17 @@
 function t_branch1(data) {
-  TESTS.SimpleOutputTestWithInputRange(data, {min: 0, max: 40}, function(inp, vars) {
+  tests.SimpleOutputTestWithInputRange(data, {min: 0, max: 40}, function(inp, vars) {
     return [inp[0] > 20 ? 1 : 0];
   });
 }
 
 function t_branch2(data) {
-  TESTS.SimpleOutputTestWithInputRange(data, {num: 2, min: 0, max: 20}, function(inp, vars) {
+  tests.SimpleOutputTestWithInputRange(data, {num: 2, min: 0, max: 20}, function(inp, vars) {
     return [inp[0] + inp[1] > 20 ? 1 : 0];
   });
 }
 
 function t_branch3(data) {
-  TESTS.SimpleOutputTestWithInputRange(data, {name: 'Number', min: 0, max: 40}, function(inp, vars) {
+  tests.SimpleOutputTestWithInputRange(data, {name: 'Number', min: 0, max: 40}, function(inp, vars) {
     var var0 = vars[0].value;
     if (var0 <= 10) {
       return [0];
@@ -38,18 +38,18 @@ function t_branchOr(data) {
     expected.push(99);
     return expected;
   };
-  if (TESTS.SimpleOutputTestWithInputRange(data, {name: VAR_NAME, min: 0, max: 11}, checkResult)) {
-    TESTS.ShowProgress();
-    TESTS.SimpleOutputTestWithInputRange(data, {name: VAR_NAME, min: 89, max: 101}, checkResult);
+  if (tests.SimpleOutputTestWithInputRange(data, {name: VAR_NAME, min: 0, max: 11}, checkResult)) {
+    tests.ShowProgress();
+    tests.SimpleOutputTestWithInputRange(data, {name: VAR_NAME, min: 89, max: 101}, checkResult);
   }
 }
 
 function waitForCrunchScript() {
-  if (!window.CRUNCH_COMMON_LOADED) {
+  if (!window.TESTS_COMMON_LOADED) {
     setTimeout(waitForCrunchScript, 100);
     return;
   }
-  TESTS.SetupButtonTest();
+  tests.SetupButtonTest();
 }
 
 waitForCrunchScript();
