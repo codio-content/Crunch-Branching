@@ -9,6 +9,7 @@ Write a program that does the following
 
 When you're done, press the button below.
 
-{Check it!! | custom}(branch1.crunch)
+{Check It!|assessment}(test-1479641766)
+
 
 |||
