@@ -19,7 +19,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Branching-43f6.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "84316993-b388-717b-963e-a1dcddddef7d",
@@ -29,7 +30,8 @@
    "type": "markdown",
    "content-file": ".guides/content/CMP--BEQ-etc--8431.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "8b6dda4b-7495-1214-5cab-9873ce825a1",
@@ -39,7 +41,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Branching---Machine-Code-8b6d.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "1df0a9da-9fe8-546a-6d8a-e485ad4863ce",
@@ -49,7 +52,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Letting-it-sink-in-1df0.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "834f809-dfe-795a-c485-f088c080f92c",
@@ -70,17 +74,20 @@
    "type": "markdown",
    "content-file": ".guides/content/JMP---Jumping-834f.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "7f28c5b0-349b-32fd-252f-e239d4b8f54c",
    "title": "More challenges",
    "files": [],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/More-challenges-7f28.md",
-   "chapter": false,
-   "reset": []
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "86b16bae-fdd2-99db-43ee-6e9828004e6d",
@@ -101,7 +108,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Branch-1-86b1.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "10a4f07-6396-d296-9bd9-872d8e36464",
@@ -122,7 +130,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Branch-2-10a4.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "365f6265-f45b-fc2b-5fb3-564a6a20717d",
@@ -143,7 +152,8 @@
    "type": "markdown",
    "content-file": ".guides/content/AND-logic-365f.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "8506eccb-65d2-6d61-a1b1-fe257e611999",
@@ -164,7 +174,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Branch-3-8506.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "51e9ec25-ac6e-6c3b-d2ca-ec92ccb9ce93",
@@ -185,7 +196,8 @@
    "type": "markdown",
    "content-file": ".guides/content/OR-logic-51e9.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "2460e340-2f81-edf3-bd7b-4e50ba817ef9",
@@ -206,7 +218,27 @@
    "type": "markdown",
    "content-file": ".guides/content/AND-OR-Challenge-2460.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "d2546b19-149b-5a11-5ef9-fdc52c69ae5",
+   "title": "Teacher solutions",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel-tree",
+   "path": [
+    "solutions"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Teacher-solutions-d254.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": true
   }
  ],
  "theme": "light",

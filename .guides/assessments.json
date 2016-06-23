@@ -1,0 +1,66 @@
+[
+ {
+  "type": "test",
+  "taskId": "test-1418636291",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "crunch_branch2",
+   "instructions": "Write a program that does the following\n\n1. Inputs 2 numbers\n1. Add the numbers together\n1. If the result is greater than 20 output 1\n1. Otherwise output 0\n\nWhen you're done, press the button below.",
+   "command": "nodejs .guides/tests/branch2.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1479641766",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "crunch_branch1",
+   "instructions": "Write a program that does the following\n\n1. Inputs a number\n1. If the number is greater than 20 output 1\n1. Otherwise output 0\n\nWhen you're done, press the button below.",
+   "command": "nodejs .guides/tests/branch1.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2356539682",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "crunch_branchOr",
+   "instructions": "Write some code that \n\n1. Inputs from a `DAT` variable called `Number` (case-sensitive).\n1. If `Number` is between 1 and 10 or between 90 and 100 then output 1 otherwise output 0.\n1. Once you have output 1 or 0, output 99 to finish off with. This will require a `JMP` instruction.\n\nWhen you're done, press the button below.",
+   "command": "nodejs .guides/tests/branchOr.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3447712572",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "crunch_branch3",
+   "instructions": "Write a program that does the following\n\n1. Get a number from a DAT memory location called 'Number' (do not use an INP statement and `Number` is case sensitive). You should set this to different values as you test the scenarios below.\n1. If the number is less than or equal to 10, output `0`.\n1. If the number is greater than 10 and less than or equal to 20, output `1`.\n1. If the number is greater than 20 and less than or equal to 30, output `2`.\n1. If the number is greater than 30, output `99`.\n\n**Important:** your code should only output a single value.\n\nWhen you're done, press the button below.\n",
+   "command": "nodejs .guides/tests/branch3.js",
+   "points": 1
+  }
+ }
+]
